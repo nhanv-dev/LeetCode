@@ -1,3 +1,4 @@
+.vs
 .vscode
 
 */.idea
@@ -5,3 +6,9 @@
 */.settings
 */.classpath
 */.project
+
+*/obj
+*/src.csproj
+
+
+Leetcode.sln

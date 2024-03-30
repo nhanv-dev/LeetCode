@@ -5,7 +5,7 @@ import java.util.Map;
 
 import common.ListNode;
 
-public class EasyProblem {
+public class Solution {
 
 	public static void main(String[] args) {
 		int[] nums = new int[] { 3, 2, 2, 3 };
@@ -37,35 +37,35 @@ public class EasyProblem {
 		for (int i = s.length() - 1; i >= 0; i--) {
 			char c = s.charAt(i);
 			switch (c) {
-			case 'I': {
-				temp = 1;
-				break;
-			}
-			case 'V': {
-				temp = 5;
-				break;
-			}
-			case 'X': {
-				temp = 10;
-				break;
-			}
-			case 'L': {
-				temp = 50;
-				break;
-			}
-			case 'C': {
-				temp = 100;
-				break;
-			}
-			case 'D': {
-				temp = 500;
-				break;
-			}
-			case 'M': {
-				temp = 1000;
-				break;
-			}
-			default:
+				case 'I': {
+					temp = 1;
+					break;
+				}
+				case 'V': {
+					temp = 5;
+					break;
+				}
+				case 'X': {
+					temp = 10;
+					break;
+				}
+				case 'L': {
+					temp = 50;
+					break;
+				}
+				case 'C': {
+					temp = 100;
+					break;
+				}
+				case 'D': {
+					temp = 500;
+					break;
+				}
+				case 'M': {
+					temp = 1000;
+					break;
+				}
+				default:
 			}
 			if (temp < prev) {
 				result -= temp;
