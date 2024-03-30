@@ -1,5 +1,7 @@
-./LeetCodeJava/.idea
-./LeetCodeJava/bin
-./LeetCodeJava/.settings
-./LeetCodeJava/.classpath
-./LeetCodeJava/.project
+.vscode
+
+*/.idea
+*/bin
+*/.settings
+*/.classpath
+*/.project
